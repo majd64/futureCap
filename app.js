@@ -6,12 +6,12 @@ const app = express();
 app.use(express.static(path.join(__dirname, "build")));
 
 let coins = []
-const totalCryptoCap = 974647352252
+const totalCryptoCap = 960000000000
 const t1c = 2977680000000
 const t2c = 6048412500000
 const t3c = 11166300000000
 
-const phrases = ["contacting Michanel Salor", "facetiming Charles Hoskinson", "calculating integral", "analyizing sentement", "scanning 1 hour chart", "canning 4 hour chart"]
+const phrases = ["Analyzing charts", "Processing sentiment", "Facetiming Charles Hoskinso", "Buffering data science models"]
 
 fetchCoinData()
 function fetchCoinData(){
