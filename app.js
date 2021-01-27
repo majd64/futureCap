@@ -13,7 +13,7 @@ const t3c = 11166300000000
 
 const phrases = ["Analyzing charts", "Processing sentiment", "Facetiming Charles Hoskinso", "Buffering data science models"]
 
-fetchCoinData()
+fetchCoinData()//
 function fetchCoinData(){
   let chunks = [];
   coins = []
